@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>anhDuAnhHeo</title>
+  </head>
+  <style>
+    .video-container {
+      position: relative;
+      width: 100%;
+      max-width: 40%; /* Điều chỉnh kích thước tối đa của video */
+      margin: 0 auto;
+    }
+
+    .video-container video {
+      width: 100%;
+      height: auto;
+    }
+
+    /* Tùy chỉnh thêm */
+    .video-container video {
+      border-radius: 10px; /* Bo tròn video */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Hiệu ứng bóng đổ */
+    }
+  </style>
+
+  <body>
+    <div class="video-container">
+      <video controls autoplay>
+        <source src="ah.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </body>
+</html>
